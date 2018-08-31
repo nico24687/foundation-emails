@@ -75,15 +75,15 @@ table, tr, td {
     background: #f3f3f3; } }
 
 table.body {
-  background: #f3f3f3;
+  background: #E6EAEE;
   height: 100%;
   width: 100%; }
 
 table.container {
   background: #fefefe;
   width: 580px;
-  margin: 0 auto;
-  Margin: 0 auto;
+  margin: 10px 10px 10px 10px;
+
   text-align: inherit; }
 
 table.row {
