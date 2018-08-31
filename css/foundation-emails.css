@@ -827,7 +827,7 @@ td,
 th,
 a {
   color: #0a0a0a;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: normal;
   padding: 0;
   margin: 0;
@@ -843,7 +843,7 @@ h5,
 h6 {
   color: inherit;
   word-wrap: normal;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: normal;
   margin-bottom: 10px;
   Margin-bottom: 10px; }
@@ -871,7 +871,7 @@ table.body,
 p,
 td,
 th {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.3; }
 
 p {
@@ -972,14 +972,16 @@ table.button {
     background: #347AC6;
     border: 2px solid #347AC6; }
     table.button table td a {
-      font-family: Helvetica, Arial, sans-serif;
-      font-size: 16px;
-      font-weight: bold;
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      text-transform: uppercase;
+      line-height: 1.4em;
+      font-size: 0.875rem;
+      font-weight: lighter !important;
       color: #fefefe;
       text-decoration: none;
       display: inline-block;
       padding: 8px 16px 8px 16px;
-      border: 0 solid #2199e8;
+      border: 0 solid #347AC6;
       border-radius: 3px; }
   table.button.radius table td {
     border-radius: 3px;
@@ -1357,3 +1359,5 @@ body.outlook p {
 .forgot-blurb{
   padding-top: 16px;
 }
+
+
